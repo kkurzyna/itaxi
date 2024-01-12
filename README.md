@@ -1,8 +1,9 @@
 # frontend
 
-Najlepiej odpalić poprzez
+Po zaciągnięciu z repo frontend należy najpierw zbudować npmem a potem odpalić
 
 ```console
+npm install
 npm run start
 ```
 frontend wystartuje automatycznie na loclahost:3000
@@ -15,7 +16,7 @@ i odpalić manualnie javą
 ```console
 mvn clean package
 cd target
-java -jar Test-0.0.1-SNAPSHOT.jar
+java -jar itaxi-backend-0.1.0-SNAPSHOT.jar.jar
 ```
 
 backend wystartuje na localhost:8080
